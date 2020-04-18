@@ -1,6 +1,7 @@
 .header {
   display: flex;
   flex-direction: column;
+  color: white;
   /* justify-content: space-around;
   align-items: center; */
 }
