@@ -1,0 +1,11 @@
+/* Container */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  width: 100%;
+  max-width: 80%;
+}

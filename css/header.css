@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around;
+  align-items: center; */
+}
+
+.links__item {
+  margin-right: 10px;
+}
+
+.header__logo {
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__img {
+  width: 50px;
+  margin-right: 20px;
+}
+
+.header__links {
+  margin-top: 30px;
+}
