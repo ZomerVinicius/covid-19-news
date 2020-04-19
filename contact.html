@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title>Notícias covid-19</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!__ Place favicon.ico in the root directory __>
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+  </head>
+
+  <body class="container">
+    <iframe
+      src="./components/header.html"
+      onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"
+    ></iframe>
+    <div class="space__content"></div>
+    <div class="contact__content">
+      <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSd4OIvWV1Bqx8ANG6mvC0w9ueAjvsN4azThOHCx58T2ysnmDg/viewform?embedded=true"
+        class="contact__iframe"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Loading…</iframe
+      >
+    </div>
+  </body>
+</html>
