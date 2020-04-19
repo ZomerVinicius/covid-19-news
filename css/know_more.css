@@ -1,0 +1,50 @@
+.section__fonts {
+  grid-row-gap: 80px;
+  padding-bottom: 50px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(2, 1fr);
+}
+@media (max-width: 800px) {
+  .section__fonts {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fonts__item {
+  box-shadow: 0 0.3px 4px 0 gray;
+  transition: 0.3s;
+  background-color: white;
+  width: 80%;
+  text-decoration: none;
+}
+.fonts__item--padding {
+  padding: 20px;
+}
+
+.fonts__content {
+  padding: 8px 8px;
+  text-align: center;
+  color: white;
+  font-size: 1.4em;
+}
+@media (max-width: 800px) {
+  .fonts__content {
+    font-size: 1em;
+  }
+}
+
+.fonts__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 800px) {
+  .fonts__container {
+    justify-content: center;
+  }
+}
+
+.fonts__item:hover {
+  transform: scale(1.05);
+}
