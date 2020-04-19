@@ -11,11 +11,20 @@
   background-color: #090909;
 }
 
+.space__content {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 800px) {
+  .space__content {
+    margin-bottom: 50px;
+  }
+}
+
 /* News */
 
 .section__news {
   grid-row-gap: 30px;
-  margin-top: 80px;
   padding-bottom: 50px;
   display: grid;
   align-items: center;
@@ -24,7 +33,6 @@
 @media (max-width: 800px) {
   .section__news {
     grid-template-columns: 1fr;
-    margin-top: 50px;
   }
 }
 

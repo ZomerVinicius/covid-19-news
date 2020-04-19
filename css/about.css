@@ -1,0 +1,25 @@
+.about__info {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.info__text {
+  text-align: left;
+  color: white;
+  max-width: 60%;
+  font-size: 1.1rem;
+}
+
+.social__icons {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.social__icons a {
+  margin-right: 20px;
+}
+
+.icon__img {
+  filter: invert(1);
+}
