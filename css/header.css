@@ -19,10 +19,6 @@
   color: white;
 }
 
-.links__item:hover {
-  color: #00d300;
-}
-
 @media (max-width: 800px) {
   .links__item {
     margin-right: 10px;

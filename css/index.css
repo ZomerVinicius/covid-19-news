@@ -12,6 +12,15 @@
   color: white;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #00d300;
+}
+
 .space__content {
   margin-bottom: 80px;
 }
@@ -70,11 +79,6 @@
 
 .news__item:hover {
   transform: scale(1.05);
-}
-
-a {
-  text-decoration: none;
-  color: white;
 }
 
 .news__video {
