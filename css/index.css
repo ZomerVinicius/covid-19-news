@@ -13,7 +13,7 @@
 
 /* News */
 
-.section--news {
+.section__news {
   grid-row-gap: 30px;
   margin-top: 50px;
   padding-bottom: 50px;
@@ -22,12 +22,12 @@
   grid-template-columns: repeat(2, 1fr);
 }
 @media (max-width: 800px) {
-  .section--news {
+  .section__news {
     grid-template-columns: 1fr;
   }
 }
 
-.news--item {
+.news__item {
   box-shadow: 0 0.3px 4px 0 gray;
   transition: 0.3s;
   background-color: black;
@@ -35,18 +35,23 @@
   text-decoration: none;
 }
 
-.news--content {
-  padding: 2px 8px;
+.news__content {
+  padding: 8px 8px;
   text-align: center;
   color: white;
+  font-size: 1.4em;
+}
+@media (max-width: 800px) {
+  .news__content {
+    font-size: 1em;
+  }
 }
 
-.news--container {
+.news__container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
-.news--item:hover {
-  margin-top: -0.25rem;
-  box-shadow: 0 0.3px 4px 0 white;
+.news__item:hover {
+  transform: scale(1.05);
 }
