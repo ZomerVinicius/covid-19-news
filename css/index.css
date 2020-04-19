@@ -15,7 +15,7 @@
 
 .section__news {
   grid-row-gap: 30px;
-  margin-top: 50px;
+  margin-top: 80px;
   padding-bottom: 50px;
   display: grid;
   align-items: center;
@@ -24,6 +24,7 @@
 @media (max-width: 800px) {
   .section__news {
     grid-template-columns: 1fr;
+    margin-top: 50px;
   }
 }
 
@@ -39,7 +40,7 @@
   padding: 8px 8px;
   text-align: center;
   color: white;
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 @media (max-width: 800px) {
   .news__content {
