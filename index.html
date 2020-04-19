@@ -19,10 +19,18 @@
   </head>
 
   <body class="container">
-    <iframe
-      src="./components/header.html"
-      onload="this.before((this.contentDocument.body||this.contentDocument).children[0]);this.remove()"
-    ></iframe>
+  <header class="header">
+    <div class="header__logo">
+      <img src="icon.png" class="logo__img"></img>
+      <span class="header__title">Notícias Covid-19</span>
+    </div>
+    <div class="header__links">
+      <a href="/index.html" class="links__item">Página inicial</a>
+      <a href="/about.html" class="links__item">Sobre</a>
+      <a href="/contact.html" class="links__item">Contato</a>
+      <a href="/know_more.html" class="links__item">Saiba mais</a>
+    </div>
+  </header>
     <div class="space__content"></div>
     <h3><a href="https://infocoronavirusbr.com/" target="_blank">Evolução dos casos em tempo real</a>
       </h3>
