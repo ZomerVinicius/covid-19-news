@@ -1,7 +1,7 @@
 # covid-19-news
 DEMO - https://covid-19-news.now.sh
 
-### Objetive
+### Objective
 
 Display static news with only HTML and CSS 
 
