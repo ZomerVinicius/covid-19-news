@@ -3,7 +3,7 @@ DEMO - https://covid-19-news.now.sh
 
 ### Objetive
 
-Display static news with HTML and CSS only
+Display static news with only HTML and CSS 
 
 ### Methodologies
 
